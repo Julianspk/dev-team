@@ -1,11 +1,11 @@
 # dev-team
 
-Ein Plugin für Claude Code, das eine Aufgabe nacheinander an vier Agenten gibt: Planer, Entwickler, Tester und QS. Du schreibst `/dev Bearbeite EVT-560`, das Team liest das Ticket, setzt es um, testet und prüft es.
+Ein Plugin für Claude Code, das eine Aufgabe nacheinander an vier Agenten gibt: Planer, Entwickler, Tester und QS. Du schreibst `/dev Bearbeite PROJ-42`, das Team liest das Ticket, setzt es um, testet und prüft es.
 
 ## Voraussetzungen
 
 - Claude Code mit Plugin-Unterstützung. Validiert wurde das Plugin mit `claude plugin validate` unter Claude Code 2.1.304.
-- Für Jira-Tickets wie `EVT-560`: ein verbundener Atlassian-MCP-Server. Ohne ihn kann der Planer das Ticket nicht lesen. Beschreib die Aufgabe dann im Befehl selbst.
+- Für Jira-Tickets wie `PROJ-42`: ein verbundener Atlassian-MCP-Server. Ohne ihn kann der Planer das Ticket nicht lesen. Beschreib die Aufgabe dann im Befehl selbst.
 - Optional: das Plugin `model-router`. Es wählt für jeden Agenten das passende Modell (siehe unten). Ohne den Router laufen alle Agenten auf dem Modell deiner Session.
 
 ## Installation
@@ -44,7 +44,7 @@ Prüfen, ob das Plugin läuft: `/dev` ohne Aufgabe eingeben. Claude fragt dann n
 Schreib den Befehl mit der Aufgabe dahinter:
 
 ```
-/dev Bearbeite EVT-560
+/dev Bearbeite PROJ-42
 /dev Baue einen Filter für die Eventliste, nur Events der nächsten 7 Tage
 ```
 

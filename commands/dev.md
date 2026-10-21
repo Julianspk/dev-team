@@ -1,6 +1,6 @@
 ---
 description: Planer, Entwickler, Tester und QS nacheinander auf eine Aufgabe ansetzen
-argument-hint: <Aufgabe, z.B. Bearbeite EVT-560>
+argument-hint: <Aufgabe, z.B. Bearbeite PROJ-42>
 ---
 
 Arbeite diese Aufgabe mit dem Agenten-Team ab: $ARGUMENTS
@@ -9,7 +9,7 @@ Ist oben keine Aufgabe angegeben, frag nach ihr und starte nichts.
 
 Du koordinierst nur und machst die Arbeit nicht selbst. Starte die Agenten mit dem Agent-Tool strikt nacheinander und gib bei keinem ein model an, der Modell-Router wählt es. Die Agenten kennen diesen Verlauf nicht: gib jedem die Aufgabe und die vollständigen Ergebnisse der vorherigen Agenten mit.
 
-1. dev-team:planer: Aufgabe klären (ein Ticket wie EVT-560 aus Jira lesen), Code untersuchen, Plan schreiben.
+1. dev-team:planer: Aufgabe klären (ein Ticket wie PROJ-42 aus Jira lesen), Code untersuchen, Plan schreiben.
 2. dev-team:entwickler: Plan umsetzen.
 3. dev-team:tester: Umsetzung ausführen und testen.
 4. dev-team:qs: Änderungen gegen Aufgabe, Plan und Projektregeln prüfen.
