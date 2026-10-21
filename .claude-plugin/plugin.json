@@ -1,5 +1,5 @@
 {
   "name": "dev-team",
-  "version": "0.1.0",
-  "description": "/dev <Aufgabe>: Planer, Entwickler, Tester und QS nacheinander, Modellwahl per model-router"
+  "version": "0.2.0",
+  "description": "/dev <Aufgabe>: Planer, Entwickler, Tester und QS mit Rückfragen untereinander, Modellwahl per model-router"
 }
